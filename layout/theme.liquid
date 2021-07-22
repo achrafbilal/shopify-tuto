@@ -17,7 +17,6 @@
   {%- assign base_font_italic = base_font | font_modify: 'style', 'italic' -%}
   {%- assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' -%}
 
-  <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
   <link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{ base_font_bold | font_url }}" type="font/woff2" crossorigin>
@@ -75,6 +74,7 @@
   </script>
 
   <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}" type="text/css" media="print" onload="this.media='all';onLoadStylesheet()">
+  <link rel="stylesheet" href="{{ 'global.css' | asset_url }}" type="text/css" media="print" onload="this.media='all';onLoadStylesheet()">
 
   <style>
     {{ header_font | font_face: font_display: 'swap' }}

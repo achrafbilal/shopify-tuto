@@ -1,0 +1,29 @@
+{
+  "name": "shopify-tuto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ach20raf/shopify-tuto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ach20raf/shopify-tuto/issues"
+  },
+  "homepage": "https://github.com/ach20raf/shopify-tuto#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "@shopify/themekit": "^1.1.9",
+    "gulp-sass": "^5.0.0"
+  }
+}
